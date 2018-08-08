@@ -16,9 +16,9 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ## Honors Project Requirements
 
-The honors project is a two-semester, mentored research experience, that culminates in a written thesis. In brief the requiriments are as follows:
+The honors project is a two-semester, mentored research experience, that culminates in a written thesis. In brief the requirements are as follows:
 
-1. Take two PSYC 500X (Independent honors research) or PSYC 501X (Independent honorsfield work) in consecutive semesters.
+1. Take two PSYC 500X (Independent honors research) or PSYC 501X (Independent honors field work) in consecutive semesters.
 2. Submit the interim written report in the first semester, submit your final honors thesis in your second semester
 3. Receive an honors designation for both courses.
 
@@ -31,7 +31,7 @@ How to enroll here, link to documents
 
 ## Graduating with Departmental Honors in Psychology Requirements
 
-Completing an Honors project is part of the requirement to graudate with Departmental honors in Psychology. These braoder requirements are outlined below
+Completing an Honors project is part of the requirement to graduate with Departmental honors in Psychology. These broader requirements are outlined below
 
 ### Eligibility Requirements for Graduating with Departmental Honors in Psychology:
 
