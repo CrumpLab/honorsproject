@@ -21,7 +21,7 @@ output: html_document
 
 This a resource for all things related to completing an honors thesis project in the Department of Psychology at Brooklyn College of the City University of New York
 
-Use the resources on this page to [learn about an honors project](), see [what the requirements are](), get [some tips on planning your thesis]() and [see what is expected of the final project](). Also, check out our [faculty web sites]() to for a list of possible mentors
+Use the resources on this page to [learn about an honors project](https://crumplab.github.io/honorsproject/forstudents.html), see [what the requirements are](https://crumplab.github.io/honorsproject/requirements.html), get [some tips on planning your thesis](https://crumplab.github.io/honorsproject/roadmap.html) and [see what is expected of the final project](https://crumplab.github.io/honorsproject/roadmap.html#structure_of_an_honors_project). Also, check out our [faculty web sites](http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/undergraduate/psychology/faculty.php) to for a list of possible mentors
 
 ## News and Announcements
 
