@@ -1,0 +1,60 @@
+---
+title: "Requirements"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 3
+    #code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+## Honors Project Requirements
+
+The honors project is a two-semester, mentored research experience, that culminates in a written thesis. In brief the requiriments are as follows:
+
+1. Take two PSYC 500X (Independent honors research) or PSYC 501X (Independent honorsfield work) in consecutive semesters.
+2. Submit the interim written report in the first semester, submit your final honors thesis in your second semester
+3. Receive an honors designation for both courses.
+
+### Enrolling in a PSYC 500X course
+
+How to enroll here, link to documents
+
+
+----
+
+## Graduating with Departmental Honors in Psychology Requirements
+
+Completing an Honors project is part of the requirement to graudate with Departmental honors in Psychology. These braoder requirements are outlined below
+
+### Eligibility Requirements for Graduating with Departmental Honors in Psychology:
+
+-	Declared Major in Psychology
+-	GPA of at least 3.70 in ALL advanced  Psychology courses (numbered 3000 and above) taken (including transfer courses)
+-	Completion of at least two PSYC 500X/501X series courses resulting in a written thesis
+-	A grade with Honors earned in at least two of the aforementioned PSYC 500X/501X series courses and
+-	A letter of recommendation from the professor who supervised the projects and assigned the grades of “Honors” in the PSYC 500X/ 501X series courses.
+
+### Graduating with Departmental Honors in Psychology Application 
+
+- Students must complete and submit the Graduating with Departmental Honors in Psychology Application (attached). 
+- Please also include with your application: 
+  -Letter of recommendation in a sealed and signed envelope addressed to: Psychology Department Honors and Awards Committee
+  -A copy of your final Honors Report
+
+
+### Application Submission and Processing
+
+Students are encouraged to submit applications during their final semester of enrollment in coursework at Brooklyn College, prior to graduation. Applications will be accepted until the end of the semester after the student’s graduation.
+
+Applications will be reviewed by the Psychology Department Honors and Awards Committee, who will then make recommendations regarding award of a degree with honors for excellence in the field of Psychology.
+
+All students will be notified of the final outcome, which is ultimately processed by the Office of the Registrar and typically occurs the semester following graduation. This delay is because all grades earned in advanced psychology courses taken must be included in the aforementioned GPA calculation, and many students take advanced psychology courses during their final semester. 
+
+The Graduating with Departmental Honors notation, “DEPARTMENTAL HONORS IN PSYCHOLOGY” will appear on the transcript, not on the diploma. 

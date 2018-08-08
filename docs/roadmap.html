@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Roadmap</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">BC Psyc Honors</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="forstudents.html">For Students</a>
+</li>
+<li>
+  <a href="roadmap.html">Roadmap</a>
+</li>
+<li>
+  <a href="requirements.html">Requirements</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Roadmap</h1>
+
+</div>
+
+
+<div id="honors-thesis-roadmap" class="section level2">
+<h2>Honors Thesis Roadmap</h2>
+<p>The honors thesis project is a capstone research experience for undergraduates in the Department of Psychology at Brooklyn College. This document provides a roadmap for students and faculty advisors for the completion of an honors thesis project.</p>
+<p>There are two important points to make at the outset.</p>
+<ol style="list-style-type: decimal">
+<li><p>Students who intend to graduate with Honors from the Department of Psychology, must complete an honors thesis project.</p></li>
+<li><p>An honors thesis project is a two-semester experience that culminates in a written honors thesis. The written honors thesis is a comprehensive document written in a thesis format that describes the research that took place over the two semesters</p></li>
+</ol>
+<div id="signing-up-for-an-honors-thesis-project" class="section level3">
+<h3>Signing up for an honors thesis project</h3>
+<p>Generally, students will take two PSYC 500X (Independent honors research) courses, in sequence, from one semester to the next semester for their honors project. For example, a student might register for PSYC 5001 in a fall semester, and then register for PSYC 5002 in the following Spring semester. It is possible to do a Spring-Fall sequence.</p>
+<p>Students must be eligible to register for PSYC 5000X courses. The formal eligibility requirements for these courses are as follows.</p>
+<p><strong>Eligibility criteria:</strong></p>
+<ul>
+<li><p>Prerequisites: Introductory Psychology (PSYC 1000); Statistical Methods (PSYC 3400); six additional credits in advanced Psychology Department courses; Experimental Psychology (PSYC 3450), which may be included among the six credits or may be taken as a co-requisite; and permission of the Chairperson.</p></li>
+<li><p>An overall GPA of 3.0 or higher (not just in psychology courses) and a faculty member agrees to serve as advisor/instructor.</p></li>
+</ul>
+<p>Students are supervised by a faculty member who acts as the mentor for the honors project. So, in order to register for a PSYC 500X course, students must also identify a faculty member who will agree to supervise the honors project over the two semesters.</p>
+</div>
+</div>
+<div id="advance-planning" class="section level2">
+<h2>Advance Planning</h2>
+<p>Students are strongly encouraged to make advance plans if they intend to pursue an honors thesis project. The honors thesis research experience is an intensive two-semester project that takes a substantial amount of time, both for the student and the faculty mentor. As a result, many faculty members may require that potential students pursuing an honors project, first gain research experience in their lab. For example, students can take PSYC 200X (Laboratory Experience) courses to gain research experience in a particular lab. It is also possible to take an individual PSYC 500X course that is not part of the honors thesis project to gain research experience. In this event, a student wishing to complete an honors project would typically take an additional two PSYC 500X courses (e.g., PSYC 5002 and PSYC 5003).</p>
+<p>In some circumstances, a student may register for a single PSYC 500X course, without the intention to complete a two-sequence honors project. Upon completion, they may wish to continue pursuing their research in a second PSYC 500X course. Special permission from the chair is required for the student to count their first PSYC 500X course as part of the two-sequence honors project.</p>
+</div>
+<div id="outline-of-a-typical-honors-project" class="section level2">
+<h2>Outline of a typical honors project</h2>
+<ol style="list-style-type: decimal">
+<li>A student takes PSYC 2001 and gains research experience in a particular lab, and is mentored by a particular faculty member. This first research experience would generally occur in sophomore or junior year. PSYC 2001 prepares the student with basic research skills in the lab that they could then put to use in their senior year, if they were to complete a honors project in the same lab. If the student decides to pursue an honors project with a different faculty advisor, they may have some transferrable research skills to quickly begin research with a different advisor.</li>
+<li>During 2001, the student and mentor discuss the possibility of a honors project, to gauge interest, and discuss possible research projects that could be completed in the two-semester time-frame.</li>
+<li>When a student and mentor decide to pursue a two-semester honors project, they discuss the scope the project in advance of the student registering for a PSYC 500X course. As a part of the form for registering into a PSYC 500X course, the mentor is given the task of describing the nature of the honors project (given how they see the project unfolding at that time</li>
+<li>A student begins the honors project process by registering for PSYC 500X (typically PSYC 5001 if they have not taken PSYC 500X courses previously). The student and mentor indicate on the form that this PSYC 500X is part of the two-semester honors project. The student completes one semester of work on their honors project, and completes an interim written report at the end of the semester</li>
+<li>A student registers for the second PSYC 500X course, and indicates on the form that this is the second course for the honors project. Working with mentor, the student completes the honors project, and submits a written thesis describing the work.</li>
+</ol>
+</div>
+<div id="things-to-keep-in-mind-about-an-honors-project" class="section level2">
+<h2>Things to keep in mind about an honors project</h2>
+<p>The research process in Psychology is highly varied. There are different kinds of research questions, different kinds of research methods, and different kinds of overall training goals in different domains in Psychology. As a result, individual mentors offer somewhat unique training experience for students pursuing the honors project. At the same time, there are many common features that mentors and students may encounter during the project, these are often the same kinds of things that any researcher encounters whenever they conduct research.</p>
+<p>For example, it is common for a research question to change over time. As you learn about something through research, you may discover that your initial questions aren’t as good as your new questions. You may discover that your project isn’t working out as planned. You may want to try something new. Or, you might get lucky and everything works out. All of these things happen. As a result, it is not uncommon for an honors project to switch gears at some point across the semesters. That is ok, your mentor is there to help guide you, and your mentor has certainly switched gears before when something didn’t work out. Your mentor is also there to help structure the project so that you can complete your research project within two semesters. Because honors projects are a big commitment in terms of time for everyone involved, it is worth outlining some general suggestions for planning out an honors project. This helps everyone stay on track. The planning process involves both the mentor and student. The following suggestions are in three parts: what not to do, structure of an honors project, and planning the project</p>
+<div id="what-not-to-do" class="section level3">
+<h3>What not to do</h3>
+<p>There are as many ways to complete an honors project as there are students and faculty. So, there is no doubt that some of these “what-not-to-does” may be ok in some circumstances. The main suggestion is, do not get involved in an honors project if nobody knows what is going on. For example, if you are a student and you want to complete a honors project on your very own idea, but you can’t find a mentor to supervise you, this places you in a tough spot. You will not be able to receive expert advice on the question you are asking, and nobody will be around to help you with the project. For a student in this situation, the recommendation is to find a mentor who is doing research that is close to your interests, this way you learn some skills and topics that you might not be aware of, and this will help you pursue your interests in the future. Also, if you are a faculty member, it might not be the best idea to have students pursue research topics completely independently, with minimal supervision. The honors project is intended to be mentored so that students receive training from the advisor. At the same time, some students who already have extensive research experience may be in the position to complete an honors project mostly independently, that is great, and whether this is something that occurs is left up to discussions between the mentor and student.</p>
+</div>
+</div>
+<div id="structure-of-an-honors-project" class="section level2">
+<h2>Structure of an honors project</h2>
+<div id="the-thesis" class="section level3">
+<h3>The thesis</h3>
+<p>One way to think of the structure for the whole project, is to think about one of the end product, the written thesis. A written undergraduate honors thesis is a comprehensive research document. It is not a short APA style research report that a student might write for PSYC 3450 Experimental Psychology. It is also not an APA style research paper, although it does have a similar structure. Presently, there is no official formatting requirements for the undergraduate honors thesis in Psychology, so many students will submit something like an APA style research paper. However, students may also choose to find a thesis template, and submit their thesis in that style.</p>
+<p>Aside from the title, the abstract, acknowledgement, and table of contents, a thesis has three main parts: an introduction, the research, and a general discussion. The introduction gives a thorough review of the prior literature on the research question. There are often many citations that go into the introduction. Another purpose of the introduction is to synthesize the prior research, and motivate the new questions being asked by the research that you conduct for the honors project. Your research may take the form of multiple experiments, or one big experiment. In the middle research section, you describe the details of your methods, and how they test the hypotheses motivating your research question. You also report the results, along with your statistical analysis of the results, and present a discussion of what the results mean with respect to your hypotheses. The general discussion is another large section where you integrate your findings back into the larger literature. Here you get to speak about the limitations, alternative explanations, and bigger issues that connect your research to the literature and society in general. The general discussion would typically have many citations as well, and this is where you get to think out-of-the-box a little bit, perhaps even speculate (you earned it for doing the research).</p>
+<p>There are general length requirements for an undergraduate honors thesis. These are minimum requirements, because it is easy and often necessary to exceed them. For example, a 5-page double-spaced essay is not an honors thesis. Neither is a 10-page double-spaced essay. How many pages does it take before you have made an honors thesis? This is not clear, however we suggest that at a minimum the honors thesis will be 25-30 pages (double-spaced), this only includes the main body. The pages for the title, abstract, acknowledgement, figures, tables, and citations do not count. The honors thesis is a heavy undertaking, it is not small, because the exercise in scholarship you are undertaking is very large, and it can always be made bigger. Your job is to demonstrate that you engaged in substantial scholarship, after you have done that, you have probably written an honors thesis.</p>
+</div>
+<div id="everything-else" class="section level3">
+<h3>Everything Else</h3>
+<p>If we think of the end goal as producing the written thesis, then everything else is what is leftover. Roughly everything else looks something like this:</p>
+<ol style="list-style-type: decimal">
+<li><p>Read lots primary research articles to become an expert on your topic of study. You will learn more about what everyone else did, what we already know about the topic, and be able to identify what your planned research will contribute to the literature. This helps you motivate the need to conduct your research.</p></li>
+<li><p>Plan out your research design, perhaps updating what you plan to do as you learn more about existing research. This also includes making plans for what kind of data you will collect, how you expect to analyze it, what you expect to find, and how what you expect to find will allow you to make inferences about your research question</p></li>
+<li><p>Make sure your research is approved by the IRB, if it is the kind of research that needs to be approved by the IRB (usually the mentor helps out a lot with this)</p></li>
+<li><p>Create the experiment. This could involve programming a computer to run an experiment, or various other methods to create the experimental set-up</p></li>
+<li><p>Run the experiment. This is the part where you collect the data</p></li>
+<li><p>Analyze the data. It’s probably redundant to say this is the part where you analyze the data to see what happened in your experiment</p></li>
+<li><p>Think about what everything means. Here you might attempt to explain the data with a theory, or analyze the data differently to ask new questions, or plan another experiment and repeat some of the above steps</p></li>
+<li><p>Write the thesis. Note, although writing the thesis is listed as the final step, it really shouldn’t be the final step. You should start drafting everything, the introduction, the methods, the results, the discussion, as you are doing those things over the semester. This way you can get feedback from your mentor about your writing, and you won’t be left with an entire thesis to write in the last couple weeks of the second semester.</p></li>
+</ol>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

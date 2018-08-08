@@ -1,0 +1,52 @@
+---
+title: "For Students"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 3
+    #code_folding: hide
+---
+
+
+## Why do an honors project?
+
+There are many benefits to completing an honors project, often this will be one of the most rewarding experiences of your undergraduate experience.
+
+When you complete an honors project you get to do all sort of things. These include, learning research skills, becoming an expert in your topic of study by reading and thinking about the literature, learning how to design and run an experiment, learning how to manage and organize data once you have collected it, learning how to analyze your data so that you can answer the questions you asking in your project, learning how to develop your writing skills so that you can communicate ideas more clearly to other people.
+
+For students interested in pursuing research at the master's or Ph.D. level, an honors project is almost a necessary first step. You will find out of research is something that you enjoy, as you will spend two whole semesters working on your research project with a faculty mentor. You will also complete and write up your work in your honors thesis. You can use this as a writing sample when you apply to Ph.D. programs. Most Ph.D. programs will require letters of reference from Faculty who can speak to your research abilities. One way to gain research experience, is to complete an honors project.
+
+## Getting Started early
+
+Research is tough stuff, and completing an honors project is a lot of work, that requires you develop many research skills. Often, it is not easy to do this during the two semesters when you are completing the honors project. Instead, it is a really good idea to make plans throughout your undergraduate, so that you will be prepared to complete an honors project, usually in your senior year. How can you get prepared?
+
+1. Take Statistics as soon as possible (PSYC 3400, a required course for the major, and for the PSYC 500X courses you need to take for the honors project). When is as soon as possible? As soon as you can take it. For example, your sophomore year would be an excellent choice. You will be using statistics in your honors project, so you need to start learning about statistics if you want to do research.
+
+2. Take Experimental Psychology (PSYC 3450, also required for the major and honors courses) as soon as possible. This course teaches you about research methods and design. Take is as soon as you can after you have taken Statistics. If you can do both in your sophomore year, that is great.
+
+3. Take PSYC 2001 (Laboratory Experience). This is a course where you pair up with a faculty mentor, and then get research experience while working in the lab. This is an excellent way to try out research. You will learn many new things, and discover whether you want to pursue more research in the future. Many students who take 2001 with a particular faculty mentor, go on to complete an honors project with the same mentor. There are many skills to learn even before beginning an honors project, so taking 2001 can give you some of those skills. You should plan to take 2001 with a faculty mentor at the very latest in your junior year.
+
+## How to enroll
+
+The honors project is a mentor-based two-semester project. This means you will be working on a research project alongside a faculty member from the Department of Psychology.
+
+You can see a list of faculty here by visiting the [Faculty page](http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/undergraduate/psychology/faculty.php)
+
+You cannot complete an honors project without a faculty mentor. So, you must contact faculty members about the possibility of doing an honors project with them. You can knock on their door, or email them, or ask to speak to them after class. We're all very friendly, don't be shy!
+
+Some tips for approaching faculty about an honors project:
+
+1. Make sure you know a little bit about the research that a particular faculty member conducts. You can read their papers (look on their lab websites, or faculty profiles), or attend their classes.
+
+2. Get to know the faculty before you ask about an honors project. For example, you might volunteer in their lab, or take a PSYC 2001 course to learn more about the research they conduct
+
+Once you are talking with a faculty member, and you both are thinking an honors project would be a good idea, the next step is to enroll in a PSYC 500X or PSYC 501X Honors level course. Usually you will do this in your senior year. There's some paperwork to fill out, but the faculty member will guide you through this part.
+
+Your faculty mentor will guide you through the whole process, and give you more details about your honors project will unfold over the semester.
+
+
+
+

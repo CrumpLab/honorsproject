@@ -1,0 +1,39 @@
+---
+title: "BC Psyc Honors"
+output: html_document
+---
+
+<style type="text/css">
+.title {
+  display: none;
+}
+
+#getting-started img {
+  margin-right: 10px;
+}
+
+</style>
+
+<div class="row" style="padding-top: 30px;">
+<div class="col-sm-6">
+
+# Completing an Honors Project in Psychology at Brooklyn College of CUNY
+
+This a resource for all things related to completing an honors thesis project in the Department of Psychology at Brooklyn College of the City University of New York
+
+Use the resources on this page to [learn about an honors project](), see [what the requirements are](), get [some tips on planning your thesis]() and [see what is expected of the final project](). Also, check out our [faculty web sites]() to for a list of possible mentors
+
+## News and Announcements
+
+Registration for the Fall 2018 semester is already underway. If you plan on pursuing an honors thesis, then check out the resources on this page, and get registered.
+
+
+
+
+</div>
+<div class="col-sm-6">
+
+
+![](images/BC.jpg)
+
+</div>

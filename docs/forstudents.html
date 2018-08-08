@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>For Students</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">BC Psyc Honors</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="forstudents.html">For Students</a>
+</li>
+<li>
+  <a href="roadmap.html">Roadmap</a>
+</li>
+<li>
+  <a href="requirements.html">Requirements</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">For Students</h1>
+
+</div>
+
+
+<div id="why-do-an-honors-project" class="section level2">
+<h2>Why do an honors project?</h2>
+<p>There are many benefits to completing an honors project, often this will be one of the most rewarding experiences of your undergraduate experience.</p>
+<p>When you complete an honors project you get to do all sort of things. These include, learning research skills, becoming an expert in your topic of study by reading and thinking about the literature, learning how to design and run an experiment, learning how to manage and organize data once you have collected it, learning how to analyze your data so that you can answer the questions you asking in your project, learning how to develop your writing skills so that you can communicate ideas more clearly to other people.</p>
+<p>For students interested in pursuing research at the master’s or Ph.D. level, an honors project is almost a necessary first step. You will find out of research is something that you enjoy, as you will spend two whole semesters working on your research project with a faculty mentor. You will also complete and write up your work in your honors thesis. You can use this as a writing sample when you apply to Ph.D. programs. Most Ph.D. programs will require letters of reference from Faculty who can speak to your research abilities. One way to gain research experience, is to complete an honors project.</p>
+</div>
+<div id="getting-started-early" class="section level2">
+<h2>Getting Started early</h2>
+<p>Research is tough stuff, and completing an honors project is a lot of work, that requires you develop many research skills. Often, it is not easy to do this during the two semesters when you are completing the honors project. Instead, it is a really good idea to make plans throughout your undergraduate, so that you will be prepared to complete an honors project, usually in your senior year. How can you get prepared?</p>
+<ol style="list-style-type: decimal">
+<li><p>Take Statistics as soon as possible (PSYC 3400, a required course for the major, and for the PSYC 500X courses you need to take for the honors project). When is as soon as possible? As soon as you can take it. For example, your sophomore year would be an excellent choice. You will be using statistics in your honors project, so you need to start learning about statistics if you want to do research.</p></li>
+<li><p>Take Experimental Psychology (PSYC 3450, also required for the major and honors courses) as soon as possible. This course teaches you about research methods and design. Take is as soon as you can after you have taken Statistics. If you can do both in your sophomore year, that is great.</p></li>
+<li><p>Take PSYC 2001 (Laboratory Experience). This is a course where you pair up with a faculty mentor, and then get research experience while working in the lab. This is an excellent way to try out research. You will learn many new things, and discover whether you want to pursue more research in the future. Many students who take 2001 with a particular faculty mentor, go on to complete an honors project with the same mentor. There are many skills to learn even before beginning an honors project, so taking 2001 can give you some of those skills. You should plan to take 2001 with a faculty mentor at the very latest in your junior year.</p></li>
+</ol>
+</div>
+<div id="how-to-enroll" class="section level2">
+<h2>How to enroll</h2>
+<p>The honors project is a mentor-based two-semester project. This means you will be working on a research project alongside a faculty member from the Department of Psychology.</p>
+<p>You can see a list of faculty here by visiting the <a href="http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/undergraduate/psychology/faculty.php">Faculty page</a></p>
+<p>You cannot complete an honors project without a faculty mentor. So, you must contact faculty members about the possibility of doing an honors project with them. You can knock on their door, or email them, or ask to speak to them after class. We’re all very friendly, don’t be shy!</p>
+<p>Some tips for approaching faculty about an honors project:</p>
+<ol style="list-style-type: decimal">
+<li><p>Make sure you know a little bit about the research that a particular faculty member conducts. You can read their papers (look on their lab websites, or faculty profiles), or attend their classes.</p></li>
+<li><p>Get to know the faculty before you ask about an honors project. For example, you might volunteer in their lab, or take a PSYC 2001 course to learn more about the research they conduct</p></li>
+</ol>
+<p>Once you are talking with a faculty member, and you both are thinking an honors project would be a good idea, the next step is to enroll in a PSYC 500X or PSYC 501X Honors level course. Usually you will do this in your senior year. There’s some paperwork to fill out, but the faculty member will guide you through this part.</p>
+<p>Your faculty mentor will guide you through the whole process, and give you more details about your honors project will unfold over the semester.</p>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

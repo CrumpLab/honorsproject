@@ -1,0 +1,13 @@
+name: "BC Psyc Honors"
+navbar:
+  title: "BC Psyc Honors"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "For Students"
+      href: forstudents.html
+    - text: "Roadmap"
+      href: roadmap.html
+    - text: "Requirements"
+      href: requirements.html
+output_dir: "docs"
