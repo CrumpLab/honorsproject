@@ -12,7 +12,7 @@ output:
 
 ## Honors Thesis Roadmap
 
-The honors thesis project is a capstone research experience for undergraduates in the Department of Psychology at Brooklyn College. This document provides a road map for students and faculty advisors for the completion of an honors thesis project.
+The honors thesis project is a research experience for undergraduates in the Department of Psychology at Brooklyn College. This document provides a road map for students and faculty advisors for the completion of an honors thesis project.
 
 There are two important points to make at the outset.
 
