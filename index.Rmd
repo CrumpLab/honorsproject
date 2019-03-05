@@ -21,11 +21,11 @@ output:
 
 # Department of Psychology
 
-## Honors courses and Honors Thesis Information
+## Honors Courses and Honors Thesis Information
 
 Students interested in gaining research and/or field work experience in Psychology may apply to take a variety of honors courses. This website is a resource for students and faculty describing the requirements and expectations for these courses.
 
-### Honors courses
+### Honors Courses
 
 - [5000 series Independent Research courses](./5000.html)
 - [5010 series Field Work courses](./5010.html)
@@ -39,7 +39,7 @@ Students interested in gaining research and/or field work experience in Psycholo
 - [Applying for Departmental Honors](./departmenthonors.html)
 
 
-### Faculty mentorship
+### Faculty Mentorship
 
 All of the 5000 series courses involve students finding a faculty member who will serve as their advisor and mentor for the project.
 
