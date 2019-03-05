@@ -32,7 +32,7 @@ Students interested in gaining research and/or field work experience in Psycholo
 
 ### Two-semester Honors Thesis
 
-- [Two-semester Honors Thesis](./thesis.html)
+- [Two-semester Honors Thesis](./Thesis.html)
 
 ### Applying for Departmental Honors
 
