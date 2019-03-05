@@ -27,16 +27,16 @@ Students interested in gaining research and/or field work experience in Psycholo
 
 ### Honors courses
 
-- [5000 series Independent Research courses]()
-- [5010 series Field Work courses]()
+- [5000 series Independent Research courses](./5000.html)
+- [5010 series Field Work courses](./5010.html)
 
-### 2-semester Honors Thesis
+### Two-semester Honors Thesis
 
-- [2-semester Honors Thesis]()
+- [Two-semester Honors Thesis](./thesis.html)
 
 ### Applying for Departmental Honors
 
-- [Applying for Departmental Honors]()
+- [Applying for Departmental Honors](./departmenthonors.html)
 
 
 ### Faculty mentorship
