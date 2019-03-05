@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: "ComeniaSansCondRegular";
-    src: url("../fonts/comenia_sans_co-webfont.woff") format("woff");
+    src: url("fonts/comenia_sans_co-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
   }
@@ -94,7 +94,7 @@ a:hover {
 }
 
 ul {
-  list-style-image: url("../imgs/list_arrow.png");
+  list-style-image: url("imgs/list_arrow.png");
 }
 
 
