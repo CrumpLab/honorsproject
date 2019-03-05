@@ -18,8 +18,8 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 The honors thesis is a two-semester, mentored research experience that culminates in a written thesis. A two-semester honors thesis is required for graduating with departmental honors. Students conducting a two-semester honors typically complete the following:
 
 - Identify a faculty research mentor who will agree to supervise their honors thesis.
-- Take two PSYC 500X (Independent honors research) or PSYC 501X (Independent honors field work) in consecutive semesters.
-- Submit an interim written report in the first semester, submit the final honors thesis in the second semester
+- Take two [PSYC 500X (Independent honors research)](./5000.html) or [PSYC 501X (Independent honors field work)](./5010.html) in consecutive semesters.
+- Submit an [interim written report](./Thesis.html#interim_written_report) in the first semester, submit the [final honors thesis](./Thesis.html#thesis) in the second semester
 
 Guidelines and information for the interim report and thesis are below.
 
@@ -45,7 +45,7 @@ In some circumstances, a student may register for a single PSYC 500X course, wit
 
 ### Interim written report
 
-At the end of the first semester students submit an interim report. The format of the interim report may depend on the nature of the research project. For example, the interim report could be an APA-style research report that would become one of the empirical chapters in the final thesis, or it could be a substantial literature review serving as the introduction to the thesis. Students submitting an interim report are expected to meet the [minimum standards for submitting written work in a 5000 level course]().
+At the end of the first semester students submit an interim report. The format of the interim report may depend on the nature of the research project. For example, the interim report could be an APA-style research report that would become one of the empirical chapters in the final thesis, or it could be a substantial literature review serving as the introduction to the thesis. Students submitting an interim report are expected to meet the [minimum standards for submitting written work in a 5000 level course](./5000.html#report_types_and_guidelines).
 
 ### Thesis
 

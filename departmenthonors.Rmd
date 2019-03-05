@@ -21,7 +21,7 @@ The eligibility requiremenets for graduating with Departmental Honors in Psychol
 
 - Declared Major in Psychology
 - GPA of at least 3.70 in ALL advanced  Psychology courses (numbered 3000 and above) taken (including transfer courses)
-- Completion of at least two PSYC 500X/501X series courses resulting in an written report (see the [honors thesis guidelines]())
+- Completion of at least two PSYC 500X/501X series courses resulting in an written report (see the [honors thesis guidelines](./Thesis.html))
 - A grade with Honors earned in at least two of the aforementioned PSYC 500X/501X series courses and
 - A letter of recommendation from the professor who supervised the projects and assigned the grades of "Honors" in the PSYC 500X/ 501X series courses.
 - **Exceptions**: it is possible for a student who completed two seperate PSYC 500X/501X courses with different advisors to apply for departmental honors. In this case they would not submit a two-semester honors thesis, but would instead **both** written reports from each of the PSYC 500X/501X courses, as well as a letter of recommendation from both professors who supervised the projecdts
