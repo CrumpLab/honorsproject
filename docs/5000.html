@@ -94,8 +94,14 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -111,7 +117,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -131,6 +136,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -152,18 +194,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -277,9 +378,6 @@ div.tocify {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">Home</a>
-</li>
-<li>
   <a href="5000.html">5000 Series</a>
 </li>
 <li>
@@ -293,6 +391,9 @@ div.tocify {
 </li>
 <li>
   <a href="Forms.html">Forms</a>
+</li>
+<li>
+  <a href="Showcase.html">Showcase</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -311,6 +412,7 @@ div.tocify {
 </div>
 
 
+<p><strong>Important Note</strong>: This page describes requirements and information for taking PSYC 500X as a standalone course (not as a part of a two-semester honors thesis). Please refer to the <a href="">two-semester honors thesis page</a> if you are planning to do an honors thesis</p>
 <div id="independent-honors-research-psyc-500x-series-psyc-5001---5004" class="section level2">
 <h2>Independent Honors Research: PSYC 500X series (PSYC 5001 - 5004)</h2>
 <p>This is a faculty supervised independent research course that includes literature review, data collection and analysis, and/or substantial theoretical development, meta-analytic, computational or simulation-based work. Students meet with their advisors on a weekly basis in order to work on and generate a final research report by the end of the semester. A copy of the resulting report must be submitted to the Department for each course section. No grade will be assigned for the course until a Department approved report is submitted and filed.</p>
@@ -334,24 +436,39 @@ div.tocify {
 <h2>Report Types and guidelines</h2>
 <p>The following APA-style reports are acceptable for fulfilling the requirements of the Independent Research (PSYC 5001-5004) courses. Note that at the end of each semester, the students report must be submitted to the Department for approval, prior to a grade being assigned for the course.</p>
 <p>The 5000-level independent research paper must be written in APA format and should contain at minimum, the following four sections:</p>
-<ol style="list-style-type: decimal">
+<ul>
 <li>Title Page (1 page),</li>
 <li>Abstract (1 page),</li>
 <li>Body: Introduction, Methods, Results (if applicable), Discussion (if applicable) (12 pages minimum),</li>
 <li>References (minimum of 10 references)</li>
-</ol>
+</ul>
+<div id="report-1-completed-research-report" class="section level3">
+<h3>Report 1: Completed Research Report</h3>
+<p>The completed research report includes the following sections:</p>
+<ul>
+<li>Title Page</li>
+<li>Abstract</li>
+<li>Literature Review that provides sufficient background and justification for conducting the study, with specific hypothesis(es)</li>
+<li>Methods Section that thoroughly describe the design, participants, equipment, materials, tasks and procedure of the study</li>
+<li>Results Section that justify and explain the statistical analyses that were conducted and their outcomes</li>
+<li>Discussion Section that interprets the results, addresses implications of the results, identifies study limitations, relates the findings to the broader theoretical framework and issues raised in the Introduction, and poses directions for future research</li>
+<li>References.</li>
+</ul>
+</div>
+<div id="report-2-theoretical-report" class="section level3">
+<h3>Report 2: Theoretical Report</h3>
+<p>A paper consisting of a thorough review and discussion of the research on a particular topic. The paper should NOT simply present a “catalog-like” summary of one study after another. Rather, the paper should consist of a systematic integrative synthesis of the literature with one or more of the following features:</p>
+<ul>
+<li>provides new and interesting connections or insights</li>
+<li>evaluates a controversy in the field by considering the evidence for or against a particular theory or claim(s) that result in an informed conclusion and proposes research to evaluate or resolve the controversy or</li>
+<li>makes a theoretical argument and/or presents a new theoretical model to account for a particular set of research findings.</li>
+</ul>
+<p>Computer simulation/modeling or meta-analysis are included as acceptable approaches.</p>
+</div>
 <div id="partial-research-report" class="section level3">
 <h3>Partial Research Report</h3>
 <p>This type of paper must include the following sections: (a) Title Page; (b) Abstract; (c) Literature Review that provides sufficient background and justification for conducting the study, with specific hypothesis(es); (d) Methods Section which thoroughly explains the design and methodology, including a plan for analyzing the data; (e) Results Section with a description of the potential hypothetical results; (f) Discussion Section with a conclusion about what these results would imply or mean, why they would be important, and how they could be followed up with future research, as well as anticipated study limitations; and (g) References.</p>
 <p>Important Note: This type of report is only acceptable for the first semester, of a Department approved two semester research project. A justification is needed if the student’s project requires more than a semester to complete (see #4 on the application form). For example, a student might require a semester (the first semester) to run participants/collect data and a second semester to code and analyze the data). Therefore, students should submit a partial research report at the ending of the first semester of the PSYC 500X series course, and then subsequently incorporate that report (i.e., the background literature and/or methodology) into the final research report (option 2 below) to be submitted at the completion of the second semester.</p>
-</div>
-<div id="completed-research-report" class="section level3">
-<h3>Completed Research Report</h3>
-<p>This type of paper must include the following sections: (a) Title Page; (b) Abstract; (c) Literature Review that provides sufficient background and justification for conducting the study, with specific hypothesis(es); (d) Methods Section that thoroughly describe the design, participants, equipment, materials, tasks and procedure of the study; (e) Results Section that justify and explain the statistical analyses that were conducted and their outcomes; (f) Discussion Section that interprets the results, addresses implications of the results, identifies study limitations, relates the findings to the broader theoretical framework and issues raised in the Introduction, and poses directions for future research; and (g) References.</p>
-</div>
-<div id="theoretical-report" class="section level3">
-<h3>Theoretical Report</h3>
-<p>A paper consisting of a thorough review and discussion of the research on a particular topic. The paper should NOT simply present a “catalog-like” summary of one study after another. Rather, the paper should consist of a systematic integrative synthesis of the literature with one or more of the following features: (a) provides new and interesting connections or insights, (b) evaluates a controversy in the field by considering the evidence for or against a particular theory or claim(s) that result in an informed conclusion and proposes research to evaluate or resolve the controversy or (c) makes a theoretical argument and/or presents a new theoretical model to account for a particular set of research findings. Computer simulation/modeling or meta-analysis are included as acceptable approaches.</p>
 </div>
 </div>
 <div id="clarifications-about-requirements" class="section level2">

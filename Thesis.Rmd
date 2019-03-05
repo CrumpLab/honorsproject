@@ -1,5 +1,5 @@
 ---
-title: "2-semester Honors Thesis"
+title: "Two-semester Honors Thesis"
 output:
   html_document:
     toc: true
@@ -15,16 +15,17 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-The honors thesis is a two-semester, mentored research experience that culminates in a written thesis. A 2-semester honors thesis is required for graduating with departmental honors. Students conducting a 2-semester honors typically complete the following requirements:
+The honors thesis is a two-semester, mentored research experience that culminates in a written thesis. A two-semester honors thesis is required for graduating with departmental honors. Students conducting a two-semester honors typically complete the following:
 
 - Identify a faculty research mentor who will agree to supervise their honors thesis.
 - Take two PSYC 500X (Independent honors research) or PSYC 501X (Independent honors field work) in consecutive semesters.
-- Submit the interim written report in the first semester, submit the final honors thesis in your second semester
+- Submit an interim written report in the first semester, submit the final honors thesis in the second semester
 
-## Honors thesis information for students and facculty
+Guidelines and information for the interim report and thesis are below.
 
+## Honors thesis information for students and faculty
 
-## Why do an honors project?
+### Why do an honors project?
 
 There are many benefits to completing an honors thesis, and this could be one of the most rewarding experiences of your undergraduate degree.
 
@@ -44,9 +45,50 @@ In some circumstances, a student may register for a single PSYC 500X course, wit
 
 ### Interim written report
 
-At the end of the first semester students submit an interim report. The format of the interim report may depend on the nature of the research project. For example, the interim report could be an APA-style research report that would become one of the empirical chapters in the final thesis, or it could be the introduction to the thesis. Students submitting an interim report are expected to meet the minimum standards for submitting written work in a 5000 level course.
+At the end of the first semester students submit an interim report. The format of the interim report may depend on the nature of the research project. For example, the interim report could be an APA-style research report that would become one of the empirical chapters in the final thesis, or it could be a substantial literature review serving as the introduction to the thesis. Students submitting an interim report are expected to meet the [minimum standards for submitting written work in a 5000 level course]().
 
-### Final Thesis
+### Thesis
+
+The thesis is a written report reflecting two-semesters worth of work, and a substantial amount of scholarly work on the part of the student. 
+The minimum requirements for a thesis are:
+
+- 20 double-spaced pages for the main body of the text
+- the page count does not apply to title page, abstract, references and so on, only to the main body of the text
+
+Theses can be submitted in different formats, here are two common acceptable formats. 
+
+## Thesis formatting options
+
+Students work with their faculty advisor to determine the most useful format for their thesis. The two most common formats are the undergraduate thesis format, and an APA style research paper. Each are described below:
+
+### Undergraduate Honors Thesis format
+
+We follow the CUNY guidelines for thesis format. Students can [download this microsoft word thesis template](), which conforms to the standards listed below.
+
+- 1 inch margins, double-spaced text, 12 pt font
+- Title Page
+- Dedication Page
+- Acknowledgments Page
+- Table of Contents
+- List of Figures
+- List of Tables
+- Abstract Page
+- Major Sections/Chapters
+    - Introduction
+    - Chapter 1 (e.g., an empirical chapter)
+    - Chapter 2 (e.g., another empirical chapter)
+    - General Discussion
+- Appendices
+- References
+
+### APA style research paper format
+
+A thesis written in APA format should contain at minimum, the following four sections: 
+
+- Title Page (1 page), 
+- Abstract (1 page), 
+- Body : Introduction, Methods, Results, Discussion (20 pages minimum)
+- References (minimum of 20 references)
 
 
 

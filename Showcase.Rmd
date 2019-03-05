@@ -1,0 +1,28 @@
+---
+title: "Showcase"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 3
+    css: blog.css
+    #code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+## Spring 2019
+
+add list of students who graduated with departmental honors, along with links to their papers.
+
+## Spring 2018
+
+add list of students who graduated with departmental honors, along with links to their papers.
+
+## Spring 2017
+
+add list of students who graduated with departmental honors, along with links to their papers.

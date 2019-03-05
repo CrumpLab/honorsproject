@@ -15,6 +15,8 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
+**Important Note**: This page describes requirements and information for taking PSYC 500X as a standalone course (not as a part of a two-semester honors thesis). Please refer to the [two-semester honors thesis page]() if you are planning to do an honors thesis
+
 ## Independent Honors Research: PSYC 500X series (PSYC 5001 - 5004)
 
 This is a faculty supervised independent research course that includes literature review, data collection and analysis, and/or substantial theoretical development, meta-analytic, computational or simulation-based work. Students meet with their advisors on a weekly basis in order to work on and generate a final research report by the end of the semester. A copy of the resulting report must be submitted to the Department for each course section. No grade will be assigned for the course until a Department approved report is submitted and filed. 
@@ -38,24 +40,38 @@ The following APA-style reports are acceptable for fulfilling the requirements o
 
 The 5000-level independent research paper must be written in APA format and should contain at minimum, the following four sections: 
 
-1.	Title Page (1 page), 
-2.	Abstract (1 page), 
-3.	Body: Introduction, Methods, Results (if applicable), Discussion (if applicable) (12 pages minimum), 
-4.	References (minimum of 10 references)
+- Title Page (1 page), 
+- Abstract (1 page), 
+- Body: Introduction, Methods, Results (if applicable), Discussion (if applicable) (12 pages minimum), 
+- References (minimum of 10 references)
+
+### Report 1: Completed Research Report
+
+The completed research report includes the following sections: 
+
+- Title Page
+- Abstract
+- Literature Review that provides sufficient background and justification for conducting the study, with specific hypothesis(es)
+- Methods Section that thoroughly describe the design, participants, equipment, materials, tasks and procedure of the study
+- Results Section that justify and explain the statistical analyses that were conducted and their outcomes
+- Discussion Section that interprets the results, addresses implications of the results, identifies study limitations, relates the findings to the broader theoretical framework and issues raised in the Introduction, and poses directions for future research
+- References.
+
+###	Report 2: Theoretical Report
+
+A paper consisting of a thorough review and discussion of the research on a particular topic. The paper should NOT simply present a “catalog-like” summary of one study after another. Rather, the paper should consist of a systematic integrative synthesis of the literature with one or more of the following features: 
+
+- provides new and interesting connections or insights
+- evaluates a controversy in the field by considering the evidence for or against a particular theory or claim(s) that result in an informed conclusion and proposes research to evaluate or resolve the controversy or
+- makes a theoretical argument and/or presents a new theoretical model to account for a particular set of research findings. 
+
+Computer simulation/modeling or meta-analysis are included as acceptable approaches. 
 
 ### Partial Research Report 
 
 This type of paper must include the following sections: (a) Title Page; (b) Abstract; (c) Literature Review that provides sufficient background and justification for conducting the study, with specific hypothesis(es); (d) Methods Section which thoroughly explains the design and methodology, including a plan for analyzing the data; (e) Results Section with a description of the potential hypothetical results; (f) Discussion Section with a conclusion about what these results would imply or mean, why they would be important, and how they could be followed up with future research, as well as anticipated study limitations; and (g) References.
 
 Important Note: This type of report is only acceptable for the first semester, of a Department approved two semester research project. A justification is needed if the student’s project requires more than a semester to complete (see #4 on the application form). For example, a student might require a semester (the first semester) to run participants/collect data and a second semester to code and analyze the data). Therefore, students should submit a partial research report at the ending of the first semester of the PSYC 500X series course, and then subsequently incorporate that report (i.e., the background literature and/or methodology) into the final research report (option 2 below) to be submitted at the completion of the second semester.
-
-### Completed Research Report
-
-This type of paper must include the following sections: (a) Title Page; (b) Abstract; (c) Literature Review that provides sufficient background and justification for conducting the study, with specific hypothesis(es); (d) Methods Section that thoroughly describe the design, participants, equipment, materials, tasks and procedure of the study; (e) Results Section that justify and explain the statistical analyses that were conducted and their outcomes; (f) Discussion Section that interprets the results, addresses implications of the results, identifies study limitations, relates the findings to the broader theoretical framework and issues raised in the Introduction, and poses directions for future research; and (g) References.
-
-###	Theoretical Report
-
-A paper consisting of a thorough review and discussion of the research on a particular topic. The paper should NOT simply present a “catalog-like” summary of one study after another. Rather, the paper should consist of a systematic integrative synthesis of the literature with one or more of the following features: (a) provides new and interesting connections or insights, (b) evaluates a controversy in the field by considering the evidence for or against a particular theory or claim(s) that result in an informed conclusion and proposes research to evaluate or resolve the controversy or (c) makes a theoretical argument and/or presents a new theoretical model to account for a particular set of research findings. Computer simulation/modeling or meta-analysis are included as acceptable approaches. 
 
 ## Clarifications about requirements
 

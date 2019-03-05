@@ -2,8 +2,6 @@ name: "BC Psyc Honors"
 navbar:
   title: "BC Psyc Honors"
   left:
-    - text: "Home"
-      href: index.html
     - text: "5000 Series"
       href: 5000.html
     - text: "5010 Series"
@@ -14,4 +12,6 @@ navbar:
       href: departmenthonors.html
     - text: "Forms"
       href: Forms.html
+    - text: "Showcase"
+      href: Showcase.html
 output_dir: "docs"

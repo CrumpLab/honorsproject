@@ -11,7 +11,7 @@
 
 
 
-<title>2-semester Honors Thesis</title>
+<title>Two-semester Honors Thesis</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -94,8 +94,14 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -111,7 +117,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -131,6 +136,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -152,18 +194,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -277,9 +378,6 @@ div.tocify {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">Home</a>
-</li>
-<li>
   <a href="5000.html">5000 Series</a>
 </li>
 <li>
@@ -294,6 +392,9 @@ div.tocify {
 <li>
   <a href="Forms.html">Forms</a>
 </li>
+<li>
+  <a href="Showcase.html">Showcase</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -306,22 +407,22 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">2-semester Honors Thesis</h1>
+<h1 class="title toc-ignore">Two-semester Honors Thesis</h1>
 
 </div>
 
 
-<p>The honors thesis is a two-semester, mentored research experience that culminates in a written thesis. A 2-semester honors thesis is required for graduating with departmental honors. Students conducting a 2-semester honors typically complete the following requirements:</p>
+<p>The honors thesis is a two-semester, mentored research experience that culminates in a written thesis. A two-semester honors thesis is required for graduating with departmental honors. Students conducting a two-semester honors typically complete the following:</p>
 <ul>
 <li>Identify a faculty research mentor who will agree to supervise their honors thesis.</li>
 <li>Take two PSYC 500X (Independent honors research) or PSYC 501X (Independent honors field work) in consecutive semesters.</li>
-<li>Submit the interim written report in the first semester, submit the final honors thesis in your second semester</li>
+<li>Submit an interim written report in the first semester, submit the final honors thesis in the second semester</li>
 </ul>
-<div id="honors-thesis-information-for-students-and-facculty" class="section level2">
-<h2>Honors thesis information for students and facculty</h2>
-</div>
-<div id="why-do-an-honors-project" class="section level2">
-<h2>Why do an honors project?</h2>
+<p>Guidelines and information for the interim report and thesis are below.</p>
+<div id="honors-thesis-information-for-students-and-faculty" class="section level2">
+<h2>Honors thesis information for students and faculty</h2>
+<div id="why-do-an-honors-project" class="section level3">
+<h3>Why do an honors project?</h3>
 <p>There are many benefits to completing an honors thesis, and this could be one of the most rewarding experiences of your undergraduate degree.</p>
 <ul>
 <li>learn research design skills</li>
@@ -330,6 +431,7 @@ div.tocify {
 <li>become an expert on a topic in the psychological literature</li>
 <li>prepare yourself for graduate studies in psychology</li>
 </ul>
+</div>
 <div id="planning-for-your-thesis" class="section level3">
 <h3>Planning for your thesis</h3>
 <p>Students must find a faculty member willing to supervise their honors thesis. For this reason, it is a good idea to make advance plans if you intend to pursue an honors thesis project.</p>
@@ -338,10 +440,53 @@ div.tocify {
 </div>
 <div id="interim-written-report" class="section level3">
 <h3>Interim written report</h3>
-<p>At the end of the first semester students submit an interim report. The format of the interim report may depend on the nature of the research project. For example, the interim report could be an APA-style research report that would become one of the empirical chapters in the final thesis, or it could be the introduction to the thesis. Students submitting an interim report are expected to meet the minimum standards for submitting written work in a 5000 level course.</p>
+<p>At the end of the first semester students submit an interim report. The format of the interim report may depend on the nature of the research project. For example, the interim report could be an APA-style research report that would become one of the empirical chapters in the final thesis, or it could be a substantial literature review serving as the introduction to the thesis. Students submitting an interim report are expected to meet the <a href="">minimum standards for submitting written work in a 5000 level course</a>.</p>
 </div>
-<div id="final-thesis" class="section level3">
-<h3>Final Thesis</h3>
+<div id="thesis" class="section level3">
+<h3>Thesis</h3>
+<p>The thesis is a written report reflecting two-semesters worth of work, and a substantial amount of scholarly work on the part of the student. The minimum requirements for a thesis are:</p>
+<ul>
+<li>20 double-spaced pages for the main body of the text</li>
+<li>the page count does not apply to title page, abstract, references and so on, only to the main body of the text</li>
+</ul>
+<p>Theses can be submitted in different formats, here are two common acceptable formats.</p>
+</div>
+</div>
+<div id="thesis-formatting-options" class="section level2">
+<h2>Thesis formatting options</h2>
+<p>Students work with their faculty advisor to determine the most useful format for their thesis. The two most common formats are the undergraduate thesis format, and an APA style research paper. Each are described below:</p>
+<div id="undergraduate-honors-thesis-format" class="section level3">
+<h3>Undergraduate Honors Thesis format</h3>
+<p>We follow the CUNY guidelines for thesis format. Students can <a href="">download this microsoft word thesis template</a>, which conforms to the standards listed below.</p>
+<ul>
+<li>1 inch margins, double-spaced text, 12 pt font</li>
+<li>Title Page</li>
+<li>Dedication Page</li>
+<li>Acknowledgments Page</li>
+<li>Table of Contents</li>
+<li>List of Figures</li>
+<li>List of Tables</li>
+<li>Abstract Page</li>
+<li>Major Sections/Chapters
+<ul>
+<li>Introduction</li>
+<li>Chapter 1 (e.g., an empirical chapter)</li>
+<li>Chapter 2 (e.g., another empirical chapter)</li>
+<li>General Discussion</li>
+</ul></li>
+<li>Appendices</li>
+<li>References</li>
+</ul>
+</div>
+<div id="apa-style-research-paper-format" class="section level3">
+<h3>APA style research paper format</h3>
+<p>A thesis written in APA format should contain at minimum, the following four sections:</p>
+<ul>
+<li>Title Page (1 page),</li>
+<li>Abstract (1 page),</li>
+<li>Body : Introduction, Methods, Results, Discussion (20 pages minimum)</li>
+<li>References (minimum of 20 references)</li>
+</ul>
 </div>
 </div>
 
