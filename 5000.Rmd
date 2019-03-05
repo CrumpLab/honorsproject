@@ -15,7 +15,7 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-**Important Note**: This page describes requirements and information for taking PSYC 500X as a standalone course (not as a part of a two-semester honors thesis). Please refer to the [two-semester honors thesis page]() if you are planning to do an honors thesis
+**Important Note**: This page describes requirements and information for taking PSYC 500X as a standalone course (not as a part of a two-semester honors thesis). Please refer to the [two-semester honors thesis page](./Thesis.html) if you are planning to do an honors thesis
 
 ## Independent Honors Research: PSYC 500X series (PSYC 5001 - 5004)
 
