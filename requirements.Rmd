@@ -7,6 +7,7 @@ output:
     collapsed: false
     number_sections: false
     toc_depth: 3
+    css: blog.css
     #code_folding: hide
 ---
 
@@ -18,9 +19,9 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 The honors project is a two-semester, mentored research experience, that culminates in a written thesis. In brief the requirements are as follows:
 
-1. Take two PSYC 500X (Independent honors research) or PSYC 501X (Independent honors field work) in consecutive semesters.
-2. Submit the interim written report in the first semester, submit your final honors thesis in your second semester
-3. Receive an honors designation for both courses.
+- Take two PSYC 500X (Independent honors research) or PSYC 501X (Independent honors field work) in consecutive semesters.
+- Submit the interim written report in the first semester, submit your final honors thesis in your second semester
+- Receive an honors designation for both courses.
 
 ### Enrolling in a PSYC 500X course
 

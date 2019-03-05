@@ -1,0 +1,108 @@
+/*
+ * customizing stuff
+
+/* Matt Crump */
+
+
+@font-face {
+    font-family: "ComeniaSansCondRegular";
+    src: url("../fonts/comenia_sans_co-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+p {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+    line-height: 19px;
+    font-size: 13px;
+    color: #525252;
+}
+
+body {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+    line-height: 19px;
+    font-size: 13px;
+    color: #525252;
+}
+
+h1 {
+    font-size: 28px;
+    font-family: "ComeniaSansCondRegular", Arial, sans-serif; font-weight: normal;
+    color: #534C45;
+    line-height: 1.2;
+}
+
+h2 {
+    font-family: "ComeniaSansCondRegular", Arial, sans-serif; font-weight: normal;
+    color: #544D45;
+    font-size: 22px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-family: "ComeniaSansCondRegular", Arial, sans-serif; font-weight: normal;
+    color: #544D45;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #7A213F;
+}
+
+a:hover {
+    color: #7A213F;
+    text-decoration: underline;
+}
+
+.navbar-default {
+    background-color: #7B2240;
+    border-color: #e7e7e7;
+    color: #FFFFFF;
+    font-family: "ComeniaSansCondRegular", Arial, sans-serif; font-weight: normal;
+    font-size: 20px;
+}
+
+.navbar-brand {
+  color:#FFFFFF;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand{
+  color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand:hover{
+  color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #FFFFFF;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #7B2240;
+    border-color: #7B2240;
+}
+
+ul {
+  list-style-image: url("../imgs/list_arrow.png");
+}
+
+
+.toc-content {
+  padding-left: 10% !important; 
+  padding-right: 10% !important;
+}
+
+
+
+

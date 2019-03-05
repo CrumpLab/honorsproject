@@ -1,6 +1,8 @@
 ---
 title: "BC Psyc Honors"
-output: html_document
+output: 
+  html_document:
+    css: blog.css
 ---
 
 <style type="text/css">
@@ -17,15 +19,32 @@ output: html_document
 <div class="row" style="padding-top: 30px;">
 <div class="col-sm-6">
 
-# Completing an Honors Project in Psychology at Brooklyn College of CUNY
+# Department of Psychology
 
-This a resource for all things related to completing an honors thesis project in the Department of Psychology at Brooklyn College of the City University of New York
+## Honors courses and Honors Thesis Information
 
-Use the resources on this page to [learn about an honors project](https://crumplab.github.io/honorsproject/forstudents.html), see [what the requirements are](https://crumplab.github.io/honorsproject/requirements.html), get [some tips on planning your thesis](https://crumplab.github.io/honorsproject/roadmap.html) and [see what is expected of the final project](https://crumplab.github.io/honorsproject/roadmap.html#structure_of_an_honors_project). Also, check out our [faculty web sites](http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/undergraduate/psychology/faculty.php) to for a list of possible mentors
+Students interested in gaining research and/or field work experience in Psychology may apply to take a variety of honors courses. This website is a resource for students and faculty describing the requirements and expectations for these courses.
 
-## News and Announcements
+### Honors courses
 
-Registration for the Fall 2018 semester is already underway. If you plan on pursuing an honors thesis, then check out the resources on this page, and get registered.
+- [5000 series Independent Research courses]()
+- [5010 series Field Work courses]()
+
+### 2-semester Honors Thesis
+
+- [2-semester Honors Thesis]()
+
+### Applying for Departmental Honors
+
+- [Applying for Departmental Honors]()
+
+
+### Faculty mentorship
+
+All of the 5000 series courses involve students finding a faculty member who will serve as their advisor and mentor for the project.
+
+- [Department of Psychology Faculty List](http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/undergraduate/psychology/faculty.php)
+
 
 
 
@@ -33,6 +52,9 @@ Registration for the Fall 2018 semester is already underway. If you plan on purs
 </div>
 <div class="col-sm-6">
 
+## News and Announcements
+
+Registration for the Fall 2018 semester is already underway. If you plan on pursuing an honors thesis, then check out the resources on this page, and get registered.
 
 ![](images/BC.jpg)
 

@@ -1,0 +1,65 @@
+---
+title: "5010 Series: Fieldwork"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 3
+    css: blog.css
+    #code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+## Independent Honors Fieldwork: PSYC 501X series (PSYC 5011 - 5014)
+
+This is a faculty supervised independent fieldwork course (e.g. an internship) with library research in an area of psychology. Students are required to write a report on the theoretical perspectives and empirical studies related to one or more aspects of the internship. Both the fieldwork and literature review topic(s) must be approved and supervised by a member of the Psychology Department faculty, with whom students will meet with on a weekly basis to produce a final report that must be submitted to the Department for each course section. No grade will be assigned for the course until a Department approved report is submitted and filed.
+
+### Eligibility criteria
+
+- Prerequisites: Introductory Psychology (PSYC 1000); Statistical Methods (PSYC 3400); a minimum of nine credits in advanced Psychology Department courses including PSYC 3400, and permission of the Chairperson
+- 61 or more credits earned
+- An overall GPA of 3.0 or higher (not just in psychology courses),  and
+- A faculty member agrees to serve as advisor/instructor.
+
+
+### Course Registration
+
+- [5000 series Independent Research course registration form]()
+
+In order to request permission to register for a fieldwork series course (PSYC 5011-5014), the form on the back must be completed and arrangements made with a faculty member to sign off as your advisor. The signed form must be returned to the Psychology Department for approval from the Chairperson prior to registration. 
+
+## Report Types and guidelines
+
+
+The following APA-style reports are acceptable for fulfilling the requirements of the independent fieldwork paper (PSYC 5011-5014) courses. Note that at the end of each semester, the students report must be submitted to the Department for approval, prior to a grade being assigned for the course.   
+
+The 501X-level independent fieldwork paper must be written in APA format and should contain at minimum, the following four sections: 
+
+1.	Title Page (1 page), 
+2.	Abstract (1 page), 
+3.	Body: Introduction, Methods, Results (if applicable), Discussion (if applicable) (12 pages minimum), 
+4.	References (minimum of 10 references)
+
+### Report 1. Theoretical Report
+
+A paper consisting of a thorough review and discussion of the research on an applied or clinically-focused topic. The paper should consist of a systematic integrative synthesis of the literature with one or more of the following features: (a) provides new and interesting connections or insights, (b) evaluates a controversy in the field by considering the evidence for or against a particular theory or claim(s) that result in an informed conclusion, or (c) makes a theoretical argument and/or presents a new theoretical model to account for a particular set of research findings. In addition, the paper should incorporate case studies/vignettes based on interviews with patients/clients/individuals with whom students interacted at their fieldwork placement.
+
+### Report 2. Other
+
+An alternate type of paper may be acceptable, please describe in detail (#3 on the application).  
+
+## Course requirement clarifications
+
+- Students will spend a minimum of 9 hours per week at the fieldwork setting. 
+- Faculty mentors must have weekly meetings with their independent fieldwork students.
+- Students will prepare a final paper that addresses a topic within the applied field in which they are carrying out their work. Papers typically present current research on a given topic, coupled with relevant case studies based on interviews with patients/clients/individuals with whom students interacted with at their placement.
+- **Honors Notation**: As an "Honors" course, the presumption is that students will conduct "Honors" level work. Nonetheless, the instructor may choose not to assign an "Honors" designation, if the level of performance is not achieved by the student.
+- **Graduating with Honors**: Note that students must complete a sequence of at least TWO of the PSYC 500X series (5011 – 5014) courses and submit a written report (in APA Format) to apply for consideration of Departmental Honors in Psychology. In addition, students need to receive a grade "with Honors" in these honors courses (to be noted by the instructor upon grade submission) in order for the coursework to count towards eligibility and consideration to "Graduate with Honors in Psychology."	
+
+
+

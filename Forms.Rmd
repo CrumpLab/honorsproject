@@ -1,0 +1,25 @@
+---
+title: "Forms"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 3
+    css: blog.css
+    #code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+### 500X and 501X registration
+
+ - [Honors 5000 series application]()
+ - [Honors 5010 series application]()
+
+### Application for departmental honors
+
+ - [Graduating with honors application]()

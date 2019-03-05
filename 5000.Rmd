@@ -1,0 +1,83 @@
+---
+title: "5000 Series: Independent Research"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 3
+    css: blog.css
+    #code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+## Independent Honors Research: PSYC 500X series (PSYC 5001 - 5004)
+
+This is a faculty supervised independent research course that includes literature review, data collection and analysis, and/or substantial theoretical development, meta-analytic, computational or simulation-based work. Students meet with their advisors on a weekly basis in order to work on and generate a final research report by the end of the semester. A copy of the resulting report must be submitted to the Department for each course section. No grade will be assigned for the course until a Department approved report is submitted and filed. 
+
+### Eligibility criteria
+
+  - Prerequisites: Introductory Psychology (PSYC 1000); Statistical Methods (PSYC 3400); six additional credits in advanced Psychology Department courses; Experimental Psychology (PSYC 3450), which may be included among the six credits or may be taken as a co-requisite; and permission of the Chairperson
+  - An overall GPA of 3.0 or higher (not just in psychology courses),  and
+  - A faculty member agrees to serve as advisor/instructor.
+
+### Course Registration
+
+- [5000 series Independent Research course registration form]()
+
+To request permission to register for a research series course (PSYC 5001-5004), the above form must be completed and arrangements must be made with a faculty member to sign off as your advisor. The signed form must be submitted to the Psychology Department for approval from the Chairperson prior to registration. 
+
+## Report Types and guidelines
+
+
+The following APA-style reports are acceptable for fulfilling the requirements of the Independent Research (PSYC 5001-5004) courses. Note that at the end of each semester, the students report must be submitted to the Department for approval, prior to a grade being assigned for the course.   
+
+The 5000-level independent research paper must be written in APA format and should contain at minimum, the following four sections: 
+
+1.	Title Page (1 page), 
+2.	Abstract (1 page), 
+3.	Body: Introduction, Methods, Results (if applicable), Discussion (if applicable) (12 pages minimum), 
+4.	References (minimum of 10 references)
+
+### Partial Research Report 
+
+This type of paper must include the following sections: (a) Title Page; (b) Abstract; (c) Literature Review that provides sufficient background and justification for conducting the study, with specific hypothesis(es); (d) Methods Section which thoroughly explains the design and methodology, including a plan for analyzing the data; (e) Results Section with a description of the potential hypothetical results; (f) Discussion Section with a conclusion about what these results would imply or mean, why they would be important, and how they could be followed up with future research, as well as anticipated study limitations; and (g) References.
+
+Important Note: This type of report is only acceptable for the first semester, of a Department approved two semester research project. A justification is needed if the student’s project requires more than a semester to complete (see #4 on the application form). For example, a student might require a semester (the first semester) to run participants/collect data and a second semester to code and analyze the data). Therefore, students should submit a partial research report at the ending of the first semester of the PSYC 500X series course, and then subsequently incorporate that report (i.e., the background literature and/or methodology) into the final research report (option 2 below) to be submitted at the completion of the second semester.
+
+### Completed Research Report
+
+This type of paper must include the following sections: (a) Title Page; (b) Abstract; (c) Literature Review that provides sufficient background and justification for conducting the study, with specific hypothesis(es); (d) Methods Section that thoroughly describe the design, participants, equipment, materials, tasks and procedure of the study; (e) Results Section that justify and explain the statistical analyses that were conducted and their outcomes; (f) Discussion Section that interprets the results, addresses implications of the results, identifies study limitations, relates the findings to the broader theoretical framework and issues raised in the Introduction, and poses directions for future research; and (g) References.
+
+###	Theoretical Report
+
+A paper consisting of a thorough review and discussion of the research on a particular topic. The paper should NOT simply present a “catalog-like” summary of one study after another. Rather, the paper should consist of a systematic integrative synthesis of the literature with one or more of the following features: (a) provides new and interesting connections or insights, (b) evaluates a controversy in the field by considering the evidence for or against a particular theory or claim(s) that result in an informed conclusion and proposes research to evaluate or resolve the controversy or (c) makes a theoretical argument and/or presents a new theoretical model to account for a particular set of research findings. Computer simulation/modeling or meta-analysis are included as acceptable approaches. 
+
+## Clarifications about requirements
+
+- Students will spend a minimum of 9 hours per week in the research lab actively conducting research (collecting and analyzing data) each semester.
+- Faculty mentors must have weekly meetings with their independent research students.
+
+### Project Requirement 
+
+Please note that acceptable projects do not necessarily need to involve human or animal participants; rather, studies consisting of computer simulation or other computational methods, such as a meta-analysis (raw data from selected studies are combined and analyzed to improve estimates of the size of a given effect and/or to resolve uncertainty when research papers disagree about a certain topic) are also acceptable.
+
+### Report Requirment
+
+Students must submit a final APA-Style Report at the end of the semester, for each 5000-level course (see page 3 for formatting requirements and guidelines).  Note that a report that is merely a summary or a critical review of current literature on a specific topic is not sufficient for the 5000-level independent research report.
+
+- If a student’s research project will be completed in one semester, the student must submit a Completed Research Report at the end of that semester. 
+- If the student’s research project will require more than a semester to complete: 
+    -	At the end of the first semester (usually PSYC 5001), the student will be required to submit a Partial Research Report.
+    -	At the end of the final semester (usually PSYC 5002), the student will be required to submit a Completed Research Report (see page 3, Report #2).
+
+-	Theoretical Work: Students may write a report (see page 3, Report #3) reviewing the literature to support a new theoretical or conceptual analysis based on a critical review of existing literature. 
+-	Honors Notation: As an “Honors” course, the presumption is that students will conduct “Honors” level work. Nonetheless, the instructor may choose not to assign an “Honors” designation, if the level of performance is not achieved by the student.
+-	Graduating with Honors: Note that students must complete a sequence of at least TWO of the PSYC 500X series (5001 – 5004) courses and submit a written thesis project (in APA Format) to apply for consideration of Departmental Honors in Psychology. In addition, students need to receive a grade “with Honors” in these honors courses (to be noted by the instructor upon grade submission) in order for the coursework to count towards eligibility and consideration to “Graduate with Honors in Psychology.”	
+
+
+

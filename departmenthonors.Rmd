@@ -1,0 +1,47 @@
+---
+title: "Graduating with Departmental honors in Psychology"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 3
+    css: blog.css
+    #code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+## Eligibility requirements
+
+The eligibility requiremenets for graduating with Departmental Honors in Psychology include:
+
+- Declared Major in Psychology
+- GPA of at least 3.70 in ALL advanced  Psychology courses (numbered 3000 and above) taken (including transfer courses)
+- Completion of at least two PSYC 500X/501X series courses resulting in a written report
+- A grade with Honors earned in at least two of the aforementioned PSYC 500X/501X series courses and
+- A letter of recommendation from the professor who supervised the projects and assigned the grades of "Honors" in the PSYC 500X/ 501X series courses.
+
+## How to apply
+
+- Students must complete and submit the [Graduating with Departmental Honors in Psychology Application form]().
+- Please also include with your application: 
+    - Letter of recommendation in a sealed and signed envelope addressed to
+        - Psychology Department Honors and Awards Committee
+    - A copy of your final Honors Report
+    
+## Application submission and processing
+
+Students are encouraged to submit applications during their final semester of enrollment in coursework at Brooklyn College, prior to graduation. Applications will be accepted until the end of the semester after the student’s graduation.
+
+Applications will be reviewed by the Psychology Department Honors and Awards Committee, who will then make recommendations regarding award of a degree with honors for excellence in the field of Psychology.
+
+**All students will be notified of the final outcome, which is ultimately processed by the Office of the Registrar and typically occurs the semester following graduation**. This delay is because all grades earned in advanced psychology courses taken must be included in the aforementioned GPA calculation, and many students take advanced psychology courses during their final semester. 
+
+The Graduating with Departmental Honors notation, "DEPARTMENTAL HONORS IN PSYCHOLOGY" will appear on the transcript, not on the diploma.
+
+Questions may be directed to Prof. Deborah Walder at [dwalder@brooklyn.cuny.edu](dwalder@brooklyn.cuny.edu)
+

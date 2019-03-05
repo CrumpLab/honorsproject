@@ -4,10 +4,14 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "For Students"
-      href: forstudents.html
-    - text: "Roadmap"
-      href: roadmap.html
-    - text: "Requirements"
-      href: requirements.html
+    - text: "5000 Series"
+      href: 5000.html
+    - text: "5010 Series"
+      href: 5010.html
+    - text: "Honors Thesis"
+      href: Thesis.html
+    - text: "Department Honors"
+      href: departmenthonors.html
+    - text: "Forms"
+      href: Forms.html
 output_dir: "docs"

@@ -1,0 +1,53 @@
+---
+title: "2-semester Honors Thesis"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 3
+    css: blog.css
+    #code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+The honors thesis is a two-semester, mentored research experience that culminates in a written thesis. A 2-semester honors thesis is required for graduating with departmental honors. Students conducting a 2-semester honors typically complete the following requirements:
+
+- Identify a faculty research mentor who will agree to supervise their honors thesis.
+- Take two PSYC 500X (Independent honors research) or PSYC 501X (Independent honors field work) in consecutive semesters.
+- Submit the interim written report in the first semester, submit the final honors thesis in your second semester
+
+## Honors thesis information for students and facculty
+
+
+## Why do an honors project?
+
+There are many benefits to completing an honors thesis, and this could be one of the most rewarding experiences of your undergraduate degree.
+
+  - learn research design skills
+  - learn data-analysis skills
+  - improve your writing and communciation abilities
+  - become an expert on a topic in the psychological literature
+  - prepare yourself for graduate studies in psychology
+
+### Planning for your thesis
+
+Students must find a faculty member willing to supervise their honors thesis. For this reason, it is a good idea to make advance plans if you intend to pursue an honors thesis project. 
+
+Faculty members may require potential thesis students to first gain research experience in their lab. For example, students can take PSYC 200X (Laboratory Experience) courses to gain research experience in a particular lab. It is also possible to take an individual PSYC 500X course that is not part of the honors thesis project to gain research experience. In this event, a student wishing to complete an honors project would typically take an additional two PSYC 500X courses (e.g., PSYC 5002 and PSYC 5003). 
+
+In some circumstances, a student may register for a single PSYC 500X course, without the intention to complete a two-semester honors project. Upon completion, they may wish to continue pursuing their research in a second PSYC 500X course. Special permission from the chair is required for the student to count their first PSYC 500X course as part of the two-sequence honors project.
+
+### Interim written report
+
+At the end of the first semester students submit an interim report. The format of the interim report may depend on the nature of the research project. For example, the interim report could be an APA-style research report that would become one of the empirical chapters in the final thesis, or it could be the introduction to the thesis. Students submitting an interim report are expected to meet the minimum standards for submitting written work in a 5000 level course.
+
+### Final Thesis
+
+
+
+
